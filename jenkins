@@ -15,7 +15,7 @@ node	{
     stage('Build image with Docker') {
              sh "docker version"
              sh "docker ps"
-             sh 'docker buildx create --use'
+             
                     
                     // Build the Docker image with Dockerx
                     sh '''
